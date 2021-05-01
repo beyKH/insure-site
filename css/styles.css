@@ -1,9 +1,10 @@
-body{
+body {
   line-height: 1.5;
   background: #fff;
-  font-family: 'Karla',"Arial" ,sans-serif;
+  font-family: 'Karla', "Arial", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  justify-content: center;
 
 }
 
@@ -16,17 +17,19 @@ body{
   font-weight: 700;
 
 }
-.logo-section{
+
+.logo-section {
   width: 600px;
 }
-nav ul{
- list-style: none;
- display: flex;
- width: 500px;
- justify-content: space-between;
- font-size: 13px;
- line-height: 15px;
- letter-spacing: -1px;
+
+nav ul {
+  list-style: none;
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: -1px;
 }
 
 
@@ -39,7 +42,7 @@ nav ul{
 
 }
 
-.hero-section{
+.hero-section {
   background-color: #2D2641;
   color: #fff;
 }
@@ -62,93 +65,132 @@ nav ul{
 }
 
 /* hero sectoin */
-.hero-section{
+.hero-section {
   display: flex;
   justify-content: space-around;
   font-size: 16px;
+  align-items: center;
 }
 
-.hero-description{
+.hero-description {
   width: 540px;
   justify-content: flex-start;
 }
-.hero-main-img{
+
+.hero-main-img {
   width: 540px;
 }
+
 .hero-hr {
   width: 150px;
 }
 
-.hero-section h1{
-  width:540px ;
+.hero-section h1 {
+  width: 540px;
   line-height: 64px;
   font-weight: 400;
   font-size: 72px;
-  font-family: 'DM Serif Display',"Times New Roman",serif;
+  font-family: 'DM Serif Display', "Times New Roman", serif;
 
 }
 
 /* links with border */
-.link-view-plans-white{
+.link-view-plans-white {
   font-size: 13px;
   font-weight: 700;
 
 }
-.link-view-plans-black{
-    font-size: 13px;
-    font-weight: 700;
 
-
+.link-view-plans-black {
+  font-size: 13px;
+  font-weight: 700;
 }
 
 
 /* main hr */
-.main-hr{
+.main-hr {
   width: 165px;
 }
 
 /* main section */
+.advantages-section {
+  justify-content: center;
+}
 
-.advantages-list{
+.advantages-list {
   list-style: none;
   display: flex;
+  justify-content: space-around;
+}
+
+.advantages-list li {
+  width: 350px;
 
 }
+
 /* advantagesc section  */
-.advantages-h2{
+.advantages-h2 {
   font-size: 72px;
   line-height: 64px;
   letter-spacing: -1px;
-  font-family: 'DM Serif Display',"Times New Roman",serif;
+  font-family: 'DM Serif Display', "Times New Roman", serif;
   font-weight: 400;
+  width: 715px;
 
 }
 
-.advantages-h3{
+.advantages-h3 {
   font-size: 28px;
-  font-family: 'DM Serif Display',"Times New Roman",serif;
+  font-family: 'DM Serif Display', "Times New Roman", serif;
   font-weight: 400;
-  line-height: 38;
+  line-height: 38px;
   letter-spacing: 0px;
 
+
 }
 
-.how-we-work-section-aside{
+/* aside section */
+.how-we-work-section-aside {
   background-color: #2D2641;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.how-we-work-section-aside h2{
+
+.how-we-work-section-aside h2 {
   font-size: 56px;
   color: #fff;
+  font-family: 'DM Serif Display',"Times New Roman",serif;
+  line-height: 56px;
+  letter-spacing: -1px;
+  font-weight: 400;
 }
 
 
-.footer-nav-bar h3{
+/* footer section */
+
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+}
+.logo-link{
+  width: 120px;
+}
+.social-networks{
+  list-style: none;
+  display: flex;
+  width:300px ;
+}
+
+.footer-nav-bar h3 {
   font-size: 13px;
   color: #837D88;
 
 }
 
-.footer-nav-bar a{
+.footer-nav-bar a {
   font-weight: bold;
   font-size: 13px;
 }
