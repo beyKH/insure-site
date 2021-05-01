@@ -92,20 +92,45 @@ nav ul{
 .link-view-plans-white{
   font-size: 13px;
   font-weight: 700;
-  border: 1px solid white;
+
 }
 .link-view-plans-black{
     font-size: 13px;
     font-weight: 700;
-    border: 1px solid #2C2830;
+
 
 }
+
+
+/* main hr */
+.main-hr{
+  width: 165px;
+}
+
+/* main section */
+
+.advantages-list{
+  list-style: none;
+  display: flex;
+
+}
+/* advantagesc section  */
 .advantages-h2{
   font-size: 72px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  font-family: 'DM Serif Display',"Times New Roman",serif;
+  font-weight: 400;
+
 }
 
 .advantages-h3{
   font-size: 28px;
+  font-family: 'DM Serif Display',"Times New Roman",serif;
+  font-weight: 400;
+  line-height: 38;
+  letter-spacing: 0px;
+
 }
 
 .how-we-work-section-aside{
