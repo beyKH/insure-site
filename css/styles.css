@@ -2,15 +2,28 @@ body{
   line-height: 1.5;
   background: #fff;
 
+
 }
 .header-top-section {
   background-color: #fff;
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.logo-section{
+  width: 600px;
+}
+
+hr{
+  width: 150px;
 }
  nav ul{
-list-style: none;
-display: flex;
-}
+  list-style: none;
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+ }
 
 .navbar-item {
   text-decoration: none;
