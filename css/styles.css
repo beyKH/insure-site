@@ -1,0 +1,75 @@
+body{
+  line-height: 1.5;
+  background: #fff;
+
+}
+.header-top-section {
+  background-color: #fff;
+  display: flex;
+}
+ nav ul{
+list-style: none;
+display: flex;
+}
+
+.navbar-item {
+  text-decoration: none;
+  color: #837D88;
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+
+}
+
+.hero-section{
+  background-color: #2D2641;
+  color: #fff;
+  font-size: 72px;
+  font-size: 16px;
+
+}
+
+.link-view-plans-white {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.link-view-plans-black {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #2C2830;
+  text-decoration: none;
+
+}
+
+.advantages-h2{
+  font-size: 72px;
+}
+
+.advantages-h3{
+  font-size: 28px;
+}
+
+.how-we-work-section-aside{
+  background-color: #2D2641;
+}
+.how-we-work-section-aside h2{
+  font-size: 56px;
+  color: #fff;
+}
+
+
+.footer-nav-bar h3{
+  font-size: 13px;
+  color: #837D88;
+
+}
+
+.footer-nav-bar a{
+  font-weight: bold;
+  font-size: 13px;
+}
